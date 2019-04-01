@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "root": "src",
+      "prefix": "app",
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "./app/scss/common.scss"
+        ]
+      }
+    }
+  ],
+  "defaults": {
+    "styleExt": "scss"
+  }
+}

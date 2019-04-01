@@ -55,7 +55,12 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "src/app/scss"
+                ]
+              }
             }
           }
         },

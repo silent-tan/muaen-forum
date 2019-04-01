@@ -1,0 +1,16 @@
+<a href="#" class="card d-block">
+  <div class="image" style="background-image: url('/assets/img/card-left.jpeg')"></div>
+  <div class="content p-3 p-lg-4" *ngIf="article">
+    <div class="title">
+      <h2 class="h2">{{article.title}}</h2>
+    </div>
+    <div class="data">
+      <div class="label">{{ article.label }}</div>
+      <div class="extra">
+        <span class="time">{{ article.time * 1000 | date}}</span>
+        <span class="comment">{{ article.comment }}</span>
+        <span class="like">{{ article.like }}</span>
+      </div>
+    </div>
+  </div>
+</a>
